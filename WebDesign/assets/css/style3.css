@@ -5,7 +5,7 @@ body{
 .hexagon {
   height: 200px;
   width: 120px;
-  background: red;
+  background: #96261e;
   position:relative;
   left:50px;
   box-sizing: border-box;
@@ -22,11 +22,11 @@ body{
 }
 .hexagon::before {
   left:-50px;
-  border-right:50px solid red; 
+  border-right:50px solid #96261e; 
 }
 .hexagon::after {
   right:-50px;
-  border-left:50px solid red; 
+  border-left:50px solid #96261e; 
 }
 
 .back-inner{
